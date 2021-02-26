@@ -20,14 +20,17 @@ export default function Portfolio() {
 
 
 
-                   <div className="row mx-auto pt-4">
-                     <div className="col-lg-4 col-sm-12">
-                     <iframe title="Video one" width="560" height="315" src="https://www.youtube.com/embed/nsVmbtWzUzU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   </div>
-                     <div className="col-lg-4 col-sm-12">
-                     <iframe title="Video two"width="560" height="315" src="https://www.youtube.com/embed/sIbPK-5V_mA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </div>
-                     <div className="col-lg-4 col-sm-12">
-                     <iframe title="Video three" width="560" height="315" src="https://www.youtube.com/embed/FiaHMV2BKgk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </div>
-                   </div>
+
+        <div className="row mx-auto pt-4 ">
+
+                 <div className="col-lg-4 col-sm-12 px-3">
+                 <iframe title="Video one" width="560" height="315" src="https://www.youtube.com/embed/nsVmbtWzUzU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   </div>
+                 <div className="col-lg-4 col-sm-12 ">
+                 <iframe title="Video two"width="560" height="315" src="https://www.youtube.com/embed/sIbPK-5V_mA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </div>
+                 <div className="col-lg-4 col-sm-12">
+                 <iframe title="Video three" width="560" height="315" src="https://www.youtube.com/embed/FiaHMV2BKgk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </div>
+
+        </div>
 
 
 

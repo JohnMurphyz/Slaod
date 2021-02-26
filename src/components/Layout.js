@@ -10,7 +10,8 @@ export default function Layout({ children, breadcrumbs }) {
   return (
     <>
     <Helmet>
-      <title>Johns Website</title>
+    <meta classNameame="viewport" content="width=device-width, initial-scale=1" />
+      <title>Slaod</title>
        {breadcrumbs ? ` - ${breadcrumbs.join(" - ")}` : ``}
       <Link to="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
       <Link rel="canonical" to="https://getbootstrap.com/docs/5.0/examples/cover/" />
@@ -19,12 +20,13 @@ export default function Layout({ children, breadcrumbs }) {
 
       </Helmet>
 
-    <body className="d-flex h-110 text-center text-light bg-dark">
+    <body className="d-flex h-100 text-center text-light bg-dark">
 
-      <div className="cover-container mx-auto flex-column">
+      <div className="cover-container mx-auto">
         <header className="d-flex mx-auto mt-5">
 
-            <h3 className="flex-fill">John Murphy</h3>
+
+            <h3 className="flex-fill">Slaod</h3>
 
             <nav className="flex-fill nav nav-masthead navbar-expand-lg pl-5 ml-5">
 
@@ -39,7 +41,7 @@ export default function Layout({ children, breadcrumbs }) {
 
     <main>{children}</main>
     <footer className="pt-5 mt-auto text-white-50">
-      <p>John Murphy ©</p>
+      <p>Slaod ©</p>
     </footer>
   </div>
 

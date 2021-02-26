@@ -15,6 +15,13 @@
    }
  }
 
+ *{
+     -ms-overflow-style: none;
+ }
+ ::-webkit-scrollbar {
+     display: none;
+ }
+
 /* Custom default button */
 .btn-secondary,
 .btn-secondary:hover,
@@ -25,7 +32,9 @@
 
 #___gatsby, #gatsby-focus-wrapper {
   height: 100%;
-  width: 100%;
+  width: 90%;
+  min-height: 100vh;
+  min-width: 100vw;
 }
 
 .navbar-center {
@@ -39,14 +48,20 @@
 body {
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
-  height: 100%;
+  min-height: 100vh;
+  min-width: 100vh;
 }
-
 header {
   max-width: 45rem;
   text-align: center;
 
 }
+
+.half-width {
+min-width: 100vh;
+
+}
+
 
 .heading {
   padding-top: 50px;
@@ -69,9 +84,8 @@ header {
 }
 
 .contact {
-
-max-width: 100%;
-align-items: stretch;
+  height: 100%;
+  width: 100%;
 }
 
 
