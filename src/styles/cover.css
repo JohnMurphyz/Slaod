@@ -23,7 +23,7 @@
   text-shadow: none; /* Prevent inheritance from `body` */
 }
 
-#___gatsby > * {
+#___gatsby, #gatsby-focus-wrapper {
   height: 100%;
   width: 100%;
 }
