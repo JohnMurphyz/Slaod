@@ -52,7 +52,7 @@ export default function Portfolio(props) {
     }
   ]
 
-  const [active, setActive] = useState(true)
+  const [active, setActive] = useState(false)
 
   return (
     <main className="mt-3 mx-auto" style={{ width: "93%" }}>
@@ -120,6 +120,3 @@ export default function Portfolio(props) {
     </main>
   )
 }
-
-// <Anime delay={100} scale={[0.3, 1]} opacity={[0, 1]}>
-// </Anime>
