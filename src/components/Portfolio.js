@@ -7,14 +7,11 @@ import Switch from "react-switch"
 export default function Portfolio(props) {
   const videoData = [
     "https://www.youtube.com/embed/nsVmbtWzUzU",
+    "https://www.youtube.com/embed/yg5Zpp6hoEU",
     "https://www.youtube.com/embed/sIbPK-5V_mA",
     "https://www.youtube.com/embed/FiaHMV2BKgk",
     "https://www.youtube.com/embed/3cfCSfetdRg",
-    "https://www.youtube.com/embed/Pq6JQnirFlE",
-    "https://www.youtube.com/embed/vyPwgBU67aM",
-    "https://www.youtube.com/embed/HP3GVAV0AOY",
-    "https://www.youtube.com/embed/BGaNyW-n9FQ",
-    "https://www.youtube.com/embed/meAh_hpqLHw"
+    "https://www.youtube.com/embed/vyPwgBU67aM"
   ]
 
   const videoSeries = [
@@ -97,7 +94,7 @@ export default function Portfolio(props) {
 
       {active ? (
         <Anime delay={100} opacity={[0, 1]}>
-          <div className="row mx-auto pb-5 pt-5 ">
+          <div className="row pb-5 pt-5 ">
             {videoSeries.map(video => (
               <VideoSeries
                 src={video.src}

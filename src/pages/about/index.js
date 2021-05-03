@@ -9,16 +9,6 @@ export default function about({ data }) {
     <Layout breadcrumbs={["about"]}>
       <Anime delay={100} opacity={[0, 1]}>
         <div className="pt-5 container about mt-5">
-          <div className="slaodtextbox border border-light">
-            <h3 className="pb-1">
-              Slaod ~
-              <span className="" style={{ color: "red" }}>
-                {" "}
-                Flow{" "}
-              </span>
-            </h3>
-            <p> Because John Murphy is too boring. </p>
-          </div>
           <h3 className="mb-5">John</h3>
           <div className="john-photo">
             <Img
@@ -31,9 +21,9 @@ export default function about({ data }) {
           <div>
             <p className="textbox">
               John is a Filmmaker and Visual Designer based in Ardmore, West
-              Waterford. He is a graduate of NUI Galway's Drama, Theatre and
-              Performance programme. He aspires to look like Carl Fredricksen
-              from Up and gets closer by the day.
+              Waterford. He is soon to be (he hopes) a graduate of NUI Galway's
+              Drama, Theatre and Performance programme. He aspires to look like
+              Carl Fredricksen from Up and gets closer by the day.
             </p>
             <p className="textbox">
               His work has focused on Theatre and promotional work. He operates
