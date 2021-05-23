@@ -52,27 +52,23 @@ export default function Portfolio(props) {
   const [active, setActive] = useState(false)
 
   return (
-    <main className="mt-3 mx-auto" style={{ width: "93%" }}>
-      <h1 className="heading">
-        Film. Edit. <span style={{ color: "red" }}>Flow</span>
-      </h1>
-
+    <main className="mx-auto" style={{ width: "93%" }}>
       {active ? (
         <div>
-          <p className="pb-2 pt-5 mt-5 mb-1">
+          <h4 className="pb-2 pt-5 mt-5 mb-1">
             {" "}
             Long term professional and personal projects{" "}
-          </p>
-          <h4> Collected Series work </h4>
+          </h4>
+          <p> Collected Series work </p>
         </div>
       ) : (
         <div>
-          <p className="pb-2 pt-5 mt-5 mb-1">
+          <h4 className="pb-2 pt-5 mt-5 mb-1">
             {" "}
             A selection of Commisioned, Promotional and Personal work{" "}
-          </p>
+          </h4>
 
-          <h4> Load Series work? </h4>
+          <p> Load Series work? </p>
         </div>
       )}
 
