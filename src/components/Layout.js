@@ -9,6 +9,10 @@ export default function Layout({ children, breadcrumbs }) {
   return (
     <>
       <Helmet>
+        <meta
+          name="google-site-verification"
+          content="PKP_iA2IFhrSmsYOX3KBddP7J9KWSYvYbPIZ8a5HXZY"
+        />
         <title>Slaod</title>
       </Helmet>
 
