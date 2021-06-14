@@ -25,7 +25,7 @@ export default function contact() {
               </svg>
               <h6 className="pt-3">
                 <a className="email" href="mailto: john@slaod.ie">
-                  j.murphy87@nuigalway.ie
+                  John@slaod.ie
                 </a>
               </h6>
               <p className="px-3 pt-3">Social:</p>
