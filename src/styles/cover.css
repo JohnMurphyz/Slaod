@@ -159,6 +159,10 @@ min-width: 100vh;
   border-bottom: .25rem solid transparent;
 }
 
+.invisible {
+  visibility: hidden;
+}
+
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
   border-bottom-color: rgba(255, 255, 255, .25);

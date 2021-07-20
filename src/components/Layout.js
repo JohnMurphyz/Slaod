@@ -34,9 +34,7 @@ export default function Layout({ children, breadcrumbs }) {
               >
                 Home
               </Link>
-              <Link className="nav-link" activeClassName="active" to="/about/">
-                About
-              </Link>
+        
               <Link
                 className="nav-link"
                 activeClassName="active"
