@@ -46,8 +46,6 @@ const renderedVideos = videoList.map((video) =>
       <Anime delay={(100)}
              scale={[.3, 1]}
              opacity={[0, 1]}>
-             <h3>2021 Showreel</h3>
-             <iframe width="560" height="315" src="https://www.youtube.com/embed/mvOUfy0IkEA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
              <h1 className="heading">film. edit. <span style={{color: 'red'}}>play</span></h1>
              <p className="pb-4">A selection of Commisioned, Promotional and Personal work</p>
 

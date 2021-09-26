@@ -6,12 +6,12 @@ import Switch from "react-switch"
 
 export default function Portfolio(props) {
   const videoData = [
-    "https://www.youtube.com/embed/FZtUTDXnHvk",
+    "https://www.youtube.com/embed/XsSq4sQg9h4",
     "https://www.youtube.com/embed/mvOUfy0IkEA",
     "https://www.youtube.com/embed/xKuvG4w1_QQ",
     "https://www.youtube.com/embed/nsVmbtWzUzU",
-    "https://www.youtube.com/embed/sIbPK-5V_mA",
-    "https://www.youtube.com/embed/3cfCSfetdRg"
+    "https://www.youtube.com/embed/FZtUTDXnHvk",
+    "https://www.youtube.com/embed/eWl6-K0Nu6c"
   ]
 
   const videoSeries = [
