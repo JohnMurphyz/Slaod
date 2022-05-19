@@ -32,9 +32,19 @@ export default function Layout({ children, breadcrumbs }) {
                 aria-current="page"
                 to="/"
               >
-                Home
+                Film
               </Link>
         
+              <Link
+                className="nav-link"
+                activeClassName="active"
+                aria-current="page"
+                to="/MotionGraphics/"
+              >
+                Motion Graphics
+              </Link>
+
+
               <Link
                 className="nav-link"
                 activeClassName="active"

@@ -6,12 +6,12 @@ import Switch from "react-switch"
 
 export default function Portfolio(props) {
   const videoData = [
-    "https://www.youtube.com/embed/XsSq4sQg9h4",
-    "https://www.youtube.com/embed/mvOUfy0IkEA",
-    "https://www.youtube.com/embed/xKuvG4w1_QQ",
-    "https://www.youtube.com/embed/nsVmbtWzUzU",
-    "https://www.youtube.com/embed/FZtUTDXnHvk",
-    "https://www.youtube.com/embed/eWl6-K0Nu6c"
+    "https://www.youtube.com/embed/Fq-WEl8VUdI", // top left
+    "https://www.youtube.com/embed/mvOUfy0IkEA", // top centre
+    "https://www.youtube.com/embed/M9q4xcClkNw", // top right
+    "https://www.youtube.com/embed/nsVmbtWzUzU", // bottom left
+    "https://www.youtube.com/embed/FZtUTDXnHvk", // bottom centre
+    "https://www.youtube.com/embed/eWl6-K0Nu6c" //  bottom right
   ]
 
   const videoSeries = [
@@ -55,7 +55,7 @@ export default function Portfolio(props) {
     <main className="mx-auto" style={{ width: "93%" }}>
       {active ? (
         <div>
-          <h4 className="pb-2 pt-5 mt-5 mb-1">
+          <h4 className="pb-2 pt-3 mt-3 mb-1">
             {" "}
             Long term professional and personal projects{" "}
           </h4>
@@ -63,9 +63,9 @@ export default function Portfolio(props) {
         </div>
       ) : (
         <div>
-          <h4 className="pb-2 pt-5 mt-5 mb-1">
+          <h4 className="pb-2 pt-3 mt-3 mb-1">
             {" "}
-            A selection of Commisioned, Promotional and Personal work{" "}
+            A selection of Commisioned and Personal work{" "}
           </h4>
 
           <p> Load Series work? </p>
